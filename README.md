@@ -5,3 +5,5 @@ In this 5-reound game, a player will play against computer.
 
 The first version of this game is playing only on the console, no web interface 
 is used.
+
+The 2nd version works on ui with no style apply.
