@@ -10,10 +10,26 @@
     <p id="wel-msg">
       Welcome to the game of Rock Paper Scissor game<br>
       You as the player will play against computer. <br>
-      Totally 5 rounds for one game.<br><br>
+      The winner for a round will get one point.<br>
+      When one of the players reaches 5 point, new game will start<br><br>
+      Please select your option : <br><br>
     </p>
-    <p class="test-msg"></p>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+    <button  id="rockBtn">rock</button>
+    <button id="paperBtn">paper</button>
+    <button id="scissorsBtn">scissors</button>
+    <br><br>
+
+    <div id="scoreBoard">
+      <p id="playerOptMsg"></p>
+      <p id="computerOptMsg"></p>
+      <p id="playerScoreMsg"></p>
+      <p id="computerScoreMsg"></p>
+      <p id="winnerMsg"></p>
+     
+      <p id="completeMsg"></p>
+    </div>
+   
     <script src="js/RPS.js"></script>
   </body>
 </html>
