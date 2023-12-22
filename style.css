@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap');
+/* this is for testing only */
+/*
+* {
+    border: 3px solid red;
+} 
+*/
+#main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #8dddfc; */
+    background-image: url("images/background_main.png");
+    background-size: cover;
+    font-family: 'caveat', sans-serif;
+    margin: 0px auto;
+    border: 6cqb solid #bbc26a;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    color: #595036;
+}
+
+#welcome {
+    margin: 5px auto;
+    width: 60%;
+    padding : 2px;
+    text-align: center;
+}
+
+#wel-h2 {
+    margin: 5px;
+}
+#wel-msg {
+    margin: 5px;
+}
+#select {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.selBtn {
+    margin: 15px;
+    padding: 3px;
+}
+
+#scoreBoard {
+   /* width: 500px; */
+    display: flex;
+    flex-direction: row;
+    
+    /*margin: auto;
+    padding: 5px; */
+}
+
+.scoreInfo, #roundWinner {
+    flex: 1;
+    margin: 5px 20px;
+    padding: 5px;
+    font-style: sans-serif;
+    font-weight: bolder;
+    /*border: 4px solid white;
+    border-radius: 10px; */
+}
+
+#playerOptMsg,#playerScoreMsg,#computerOptMsg, #computerScoreMsg {
+    margin: 10px;
+}
+
+#complete {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: #b3e8ca;
+    font-size: 2.0em;
+}
